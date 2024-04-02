@@ -154,8 +154,7 @@ tr td {
     height: 400px;
     background: #dadaf7;
     flex-direction: column;
-    margin-left: 50%;
-    margin-right: 50%;
+    margin: auto;
  }
 
  .text{
