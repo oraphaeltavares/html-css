@@ -115,11 +115,11 @@ header .aurora {
     text-align: center;
     font-size: large;
 }
-
+/* Imagem do Portfolio*/
 .portfolio-img {
     margin-right: 20px;
 }
-
+/* Textos de Serviços*/
 .services-text1,
 .services-text2,
 .services-text3,
@@ -132,9 +132,16 @@ header .aurora {
     width: 400px;
     font-weight: bolder;
 }
-
+/* Imagem e texto da galeria de portfolio*/
 tr td {
     font-weight: bold;
+}
+/* Estilização do texto Sobre mim */
+.about-me-text {
+    margin: auto;
+    max-width: 400px;
+    text-align: center;
+    color: black;
 }
 
 /*Página do Obrigado*/
@@ -172,14 +179,7 @@ tr td {
      border-radius: 16px;
  }
 
-.about-me-text {
-    margin: auto;
-    max-width: 400px;
-    text-align: center;
-    color: black;
-    animation: appear 0.5s;
-}
-  
+/* Comportamento em certas resoluções */
 @media(max-width: 1600px) {
 .desktop {
     display: none;
