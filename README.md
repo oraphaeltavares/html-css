@@ -1,7 +1,7 @@
 # html-css
  Portfolio Raphael
 
-Este projeto tem como intenção demonstrar minha evolução de conhecimento acerca de Desenvolvimento de Sistemas.
+Este projeto tem como intenção demonstrar a evolução de meu conhecimento acerca de Desenvolvimento de Sistemas.
 
 Incontáveis coisas que fiz, muito provavelmente, poderiam ser feito com uma estrutura melhor, de uma maneira mais limpa, bem mais organizada e com um design muito superior mas, por enquanto, é um começo.
 
