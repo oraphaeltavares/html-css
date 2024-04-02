@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="pt-BR">
+
+    <head>
+        <!-- Metadados -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="styles.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="formulario.css" media="screen">
+
+        <!-- Título da página (aparece na aba) -->
+        <title>Contato | Raphael</title>
+    </head>
+
+    <body>
+        <!-- Menu de navegação fixo no topo da tela. -->
+    <header>
+        <div class="container">
+        <div class="fixo-na-tela">
+            <nav id="menu">
+                <ul>
+                    <li>
+                        <a href="home.html">Página inicial</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Serviços</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfolio</a>
+                        </li>
+                    <li>
+                        <a href="contact.html">Contato</a>
+                    </li>
+                    <li>
+                        <a href="aboutme.html">Sobre mim</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+        <main>
+            <section class="form-contato"></section>
+        </main>
+        <!-- Cabeçalho com id subtítulo -->
+        <div class="contact">
+            <h3>Entre em contato comigo</h3></div>
+            <p id="subtitulo">Ao enviar a mensagem basta aguardar que entrarei em contato o mais breve possível.</p>
+            <br>
+
+        <!-- Início do formulário -->
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <!-- Campo para digitar o email -->
+            <div class="campo">
+                <label for="email"><strong>Email:</strong></label>
+                <input type="email" name="email" id="email" placeholder="Digite seu email." required>
+            </div>
+            <!-- Campo para digitar o conteúdo da mensagem -->
+            <div class="campo">
+                <label for="message"><strong>Mensagem:</strong></label>
+                <textarea type="textarea" rows="20" style="width: 30em" id="message" name="message" placeholder="Digite sua mensagem." required></textarea>
+            </div>
+
+            <!-- Botão para enviar o formulário -->
+            <div class="campo">
+                <br>
+                <label>
+                    <button class="botao" type="submit" onsubmit="" id="botao" name="botao">Enviar</button>
+                </label>            
+                    <input type="hidden" name="accessKey" value="e17d0ff2-b048-4868-a6cc-8f7250338301">
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/html-css/thankyou.html">
+            </div>
+        </form>
+
+        <!-- Footer com links para minhas redes. -->
+        <footer class="footer-icons-name">
+            <a href="https://github.com/oraphaeltavares" target="_blank" rel="noopener noreferrer">
+                <img src="./img/github.svg"></img>
+                <p>Github</p>
+            </a>
+            <a href="https://www.linkedin.com/in/raphael-tavares-tenorio/" target="_blank" rel="noopener noreferrer">
+                <img src="./img/linkedin.svg"></img>
+                <p>Linkedin</p>
+            </a>
+            <a href="https://youtube.com/@oraphaeltavares" target="_blank" rel="noopener noreferrer">
+                <img src="./img/youtube.svg"></img>
+                <p>Youtube</p>
+            </a>       
+        </footer>
+        <!-- Footer com mensagem de copyright. -->
+        <footer class="real-footer">
+            <p>&copy; 2024 by Raphael Tavares. Todos os direitos reservados.</p>
+        </footer>
+    </body>
+
+</html>

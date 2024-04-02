@@ -1,0 +1,233 @@
+body {
+    color: black;
+    background-color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 16px;
+    margin-left: 100px;
+    margin-right: 100px;
+    min-width: 643px;
+}
+/* Cor ao selecionar texto */
+::selection {
+    color:rgb(164, 233, 4);
+    background-color: black;
+}
+/* Teclas de navegação fixas no topo */
+.fixo-na-tela {
+    background-color: #83cbe7;
+    top: 0px;
+    color: #1b7a9f;
+    font-weight: bolder;
+}
+
+.fixo-na-tela a:hover {
+    background-color: #1b7a9f ;
+    color:white;
+}
+
+.fixo-na-tela ul {
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items:center;
+    padding: 16px;
+    max-width: 600px;
+    margin: auto;
+}
+/* Conteúdo */
+.container {
+    padding: 0px 50px;
+}
+
+body a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 30px;
+    color:#1d6381;
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 0.6;
+    color: black;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h3,
+h4 {
+    color: black;
+}
+/* Listas ordenadas */
+ol {
+    display:flex;
+    justify-content: space-between;
+    list-style-type:disc;
+    align-items:center;
+    padding: 16px; 
+    max-width: 600px;
+    margin: auto;
+}
+/* Imagem do autor */
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #bbe4af;
+    margin: 20px;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    -webkit-user-drag: none;
+}
+.center {
+    text-align: center;
+}
+/* Imagem da Rua da Aurora */
+header .aurora {
+    text-align: center;
+}
+/* Texto abaixo da imagem do autor */
+.nome-função {
+    text-align: center;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    line-height: 0;
+}
+/* Formatação geral de cada página */
+.services,
+.portfolio,
+.contact,
+.about-me {
+    text-align:center;
+    font-size: 20px;
+    color: rgb(66, 12, 12);
+    background-color: #bbe4af;
+    max-width: 400px;
+    margin: auto;
+}
+.home {
+    text-align: center;
+    font-size: large;
+}
+
+.portfolio-img {
+    margin-right: 20px;
+}
+
+.services-text1,
+.services-text2,
+.services-text3,
+.services-text4,
+.services-text5 {
+    margin: auto;
+    text-align: justify;
+    color: black;
+    background-color: rgb(208, 245, 232);
+    width: 400px;
+    font-weight: bolder;
+}
+
+tr td {
+    font-weight: bold;
+}
+
+/*Página do Obrigado*/
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    background: #dadaf7;
+    flex-direction: column;
+    margin-left: 50%;
+    margin-right: 50%;
+ }
+
+ .text{
+     font-size: 45px;
+     color: #310202;
+     margin-bottom: 30px;
+ }
+ .paragrafo{
+     color: #024914;
+     margin-bottom: 50px;
+ }
+ .btn{
+     padding: 15px 55px;
+     background: #f5f5f5;
+     text-decoration: none;
+     color: #101026;
+     font-size: 18px;
+     transition: all 0.5s;
+ }
+ .btn:hover{
+     border-radius: 16px;
+ }
+
+.about-me-text {
+    margin: auto;
+    max-width: 400px;
+    text-align: center;
+    color: black;
+    animation: appear 0.5s;
+}
+  
+@media(max-width: 1600px) {
+.desktop {
+    display: none;
+}
+.mobile {
+    display: block;
+    /* ou inline, inline-block */
+}
+}
+
+@media (min-width: 480px) {
+.desktop {
+    display: none;
+    }
+    .mobile {
+    display: block;
+    /* ou inline, inline-block */
+    }
+}
+/* Rodapé */
+footer {
+    display: flex;
+    justify-content: center;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    color: black;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+    padding: auto;
+}
+
+footer p {
+    margin-top: 2px;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}
+
+ 
